@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -131,3 +134,23 @@ button {
 
 /* Third section*/
 
+.third  {
+    background-color: #E5E7EB;
+    padding: 100px 160px 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.sign {
+    text-align: end;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 70px;
+}
