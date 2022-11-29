@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
 
 
 body {
@@ -8,6 +8,7 @@ body {
     align-items: center;
     font-family: sans-serif;
     margin: 0;
+    flex:1;
 }
 
 
@@ -25,13 +26,13 @@ body {
     align-items: center;
     margin-bottom: 130px;
 }
-.logo-header {
+.logo-header, .title-container {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.links-header, .subsection_text, .img {
+.links-header, .subsection_text, .img, .text-container, .fifth-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -156,10 +157,39 @@ button {
 
 .fourth {
     display: flex;
+    margin: 100px 160px 100px 300px;
 }
 .container {
-    flex:1;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.txtabttn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+} 
+
+.fourth button {
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+
+/* Fifth section */
+
+.fifth {
+    background-color: #1F2937;
+    padding: 40px 535px 40px 535px;
+    text-align: center;
+}
+
+
+/* Lacking: adjustement of margins throughout the page; */
