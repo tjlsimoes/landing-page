@@ -9,14 +9,14 @@ body {
 
 .first {
     background-color: #1F2937;
-    padding: 20px 100px 200px 200px;
+    padding: 20px 300px 200px 300px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 .logo-header {
     font-size: 24px;
@@ -27,6 +27,11 @@ body {
 .links-header, .subsection_text, .img {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.links-header{
+    display:flex;
+    gap: 15px;
 }
 
 .subsection_title {
@@ -43,12 +48,16 @@ body {
 }
 
 .subsection_text {
-    text-align: left;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 820px;
+    margin-right: 50px;
+    margin-bottom: 15px;
 }
 .img {
     background-color: gray;
-    width: 500px;
-    height: 150px;
+    width: 850px;
+    height: 235px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,4 +67,15 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    font-size: large;
+    font-size: 18px;
+    width: 134px;
+    height: 40px;
+}
+
+.first button {
+    border-color: #1F2937;
 }
